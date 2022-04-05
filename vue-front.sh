@@ -1,5 +1,5 @@
 #！/bin/bash
-cd /usr/project/yyx-vue-front || exit
+cd /usr/projects/yyx-vue-front || exit
 echo '清除代码'
 git reset --hard origin/master
 git clean
