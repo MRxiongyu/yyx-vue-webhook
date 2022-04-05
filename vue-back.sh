@@ -1,6 +1,9 @@
 #！/bin/bash
 echo "开始执行shell"
 cd /usr/projects/yyx-vue-back || exit
+echo "先清除老代码"
+git reset --hard origin/master
+git clean
 echo "拉取代码"
 git pull origin master
 echo "开始构建容器"
