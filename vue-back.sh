@@ -1,6 +1,6 @@
 #！/bin/bash
 echo "开始执行shell"
-cd /usr/project/yyx-vue-back || exit
+cd /usr/projects/yyx-vue-back || exit
 echo "拉取代码"
 git pull origin master
 echo "开始构建容器"
